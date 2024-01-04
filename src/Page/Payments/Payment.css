@@ -1,0 +1,49 @@
+/* Styles for Payment History Table */
+.home-content {
+    padding: 20px;
+  }
+  
+  .overview-boxes {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overview-boxes h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .overview-boxes {
+      padding: 15px;
+    }
+  
+    table {
+      margin-top: 15px;
+    }
+  
+    th, td {
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,105 @@
+.liceform1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  .liceform1 input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e8e9eb;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .liceform1 button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(124, 124, 129); /* Adjust the color as needed */
+    color: white;
+    cursor: pointer;
+  }
+  #Packagesboard {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .liceform1,
+  .liceform2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .liceform1 input,
+  .liceform2 input,
+  .liceform1 button,
+  .liceform2 button {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .liceform1 button,
+  .liceform2 button {
+    border: none;
+    background-color: #21313b;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .liceform2 input {
+    margin-bottom: 0;
+  }
+  
+  .licentable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .licentable th,
+  .licentable td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .licentable th {
+    background-color: #708090; /* Adjust the background color as needed */
+    color: #e8e9eb;
+  }
+  
+  .licentable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .licebtn1,
+  .licebtn2 {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .licebtn1 {
+    background-color: #8f0700; /* Light red */
+  }
+  
+  .licebtn2 {
+    background-color: #828e85; /* Light green */
+  }
+  
